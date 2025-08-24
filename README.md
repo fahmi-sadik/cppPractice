@@ -1,1 +1,2 @@
-basic structure and condition
+Emni.cpp
+->Basic structure and condition
