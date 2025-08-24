@@ -8,12 +8,9 @@ struct Faculty{
     int pub;
 
     double cgpa;
-
-
 };
 
 typedef struct Faculty f;
-
 
 void Filter(f *f1, f *f2){
 
@@ -33,8 +30,6 @@ void Filter(f *f1, f *f2){
             }
         }
     }
-
-
 }
 
 int main()
@@ -45,9 +40,7 @@ int main()
 
     cin>>f2.name>>f2.pub>>f2.cgpa;
 
-
     Filter(&f1,&f2);
-
-
 }
+
 
